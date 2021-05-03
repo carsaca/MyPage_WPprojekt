@@ -1,0 +1,249 @@
+
+
+
+body, html, #root, .app, .container {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background: rgb(243, 242, 240);
+}
+
+.navbar{
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+.container {
+  margin: auto;
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  max-width: 100%;
+}
+
+.loginForm {
+ box-sizing: border-box;
+ width: 100%;
+ max-width: 400px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.registerForm {
+ box-sizing: border-box;
+ width: 100%;
+ max-width: 400px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.inputField {
+ padding-top: 16px;
+}
+
+.input {
+ margin-top: 10px;
+ box-sizing: border-box;
+ outline: none;
+ border: solid 2px #1189de;
+ border-radius: 4px;
+ color: #292929;
+ width: 100%;
+ padding: 12px;
+ font-size: 14px;
+ background: rgba(255, 255, 255, 1);
+}
+
+.submitButton {
+ padding-top: 16px;
+}
+
+
+
+
+.mybtn {
+ width: 100%;
+ min-width: 280px;
+ color: #565656;
+ padding: 12px;
+ font-size: 14px;
+ font-weight: bold;
+ /*  border: solid 2px #1189de;   */
+ border-radius: 4px;
+ background: rgb(185, 185, 185);
+ cursor: pointer;
+}
+
+.btn{
+  max-height: 35px;
+}
+
+.smalltext {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mediumtext{
+  font-size: 24px;
+  
+}
+
+.title{
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.username{
+  font-weight: bold;
+  color: rgba(255,255,255,.5);
+}
+
+.userAndDate{
+  display: flex;  
+  justify-content: space-between;
+}
+
+
+
+.postContainer{
+  
+  justify-content: center;
+}
+
+.post {
+  max-width: 1000px;
+  margin: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.6em;
+  border: solid 2px #e7e7e7;
+  border-radius: 4px;
+  color:#282c34;
+  display: flex;
+  flex-direction: row;
+}
+.rightside{
+  justify-content: flex-end;
+}
+
+.leftside{
+  margin-right: auto;
+  max-width: max-content;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.switch{
+  margin-top: 0.5em;
+}
+.tu{
+  display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.deadline{
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: row;
+}
+
+.userAndDate{
+  font-size: 0.9em;
+  color:#282c34;
+  display: flex;
+  flex-direction: row;
+}
+
+.postText{
+  font-size: 1.2em;
+  justify-content: left;
+}
+
+.postUsername{
+  
+  font-weight: bold;
+}
+
+.newPost{
+  
+  flex-direction: row;
+  margin: 0.7em;
+  max-width: 1000px;
+}
+
+.neznam{
+  background:#282c34;
+  max-height: 60px;
+}
+
+.margintop{
+  margin-top: 0.6em;
+}
+
+.body{
+  max-width: 1000px;
+  margin: auto;
+}
+
+#basic-navbar-nav{
+  justify-content: flex-end;
+}
+
+.mr-auto.navbar-nav{
+  margin-right:0!important;
+
+}
+
+a{
+  color:rgb(100, 185, 255);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+.dots:after {
+  content: '\2807';
+  font-size: 1.5em;
+  color: #bebebe;
+ }
+
+ .e-btn, .e-css.e-btn{
+  background-color: rgb(243, 242, 240);
+ }
+
+ 

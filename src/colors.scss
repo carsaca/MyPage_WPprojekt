@@ -1,0 +1,10 @@
+$overlay: rgba(97, 98, 98, 0.75);
+$favourites: rgba(0, 0, 0, 0.75);
+$white: rgb(255, 255, 255);
+$initials: #d86420;
+:export {
+  overlay: $overlay;
+  favourites: $favourites;
+  white: $white;
+  initials: $initials;
+}

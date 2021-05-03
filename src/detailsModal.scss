@@ -1,0 +1,40 @@
+#post-details-modal {
+    height: 100vh;
+    right: 12.5%;
+  }
+  
+  #post-details-close-icon {
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: white;
+    display: flex;
+    border: medium solid;
+    border-radius: 4px;
+  }
+  
+  .detail-card {
+    width: 500pt;
+    left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius: 15px;
+    top: 200px;
+    margin: auto;
+    position: absolute;
+    background: white;
+    height: fit-content;
+    @media screen and (max-width: 800px) {
+      left: 2.5%;
+      top: 1.5%;
+      width: 95%;
+    }
+  }
+  .detail-card-image img {
+    width: 100%;
+    height: auto;
+  }
